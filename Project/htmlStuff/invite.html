@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Invite Others</title>
+        <link rel="stylesheet" href="/stylesheets/invite.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    </head>
+    <body>
+        <header class="header">
+            <a href="/home.html" id="logo">Home</a>
+            <input type="text" placeholder="Insert invitation code here" id="search">
+            <a href="/login.html">
+                <button id="login">Login</button>
+            </a>
+        </header>
+        <div class="center" id="mainbox">
+            <main class="center">
+                <div class="mainInfo" id="f_div">
+                    <p class="txtArea">Event name:</p>
+                    <p id="eve-nm" class="usertxt">Tmp event name</p>
+                </div>
+                <div class="mainInfo">
+                    <p class="txtArea">Event date:</p>
+                    <p id="eve-dt" class="usertxt">01/04/2022</p>
+                </div>
+                <div class="mainInfo">
+                    <p class="txtArea">Event description:</p>
+                    <p id="eve-dp" class="usertxt">a very long description that describes nothing xd xd xd xd xd</p>
+                </div>
+                <div class="center" id="div2">
+                    <p class="avatxt">Available time:</p>
+                    <input type="time" class="input-time left" id="time_a_s">
+                    <p class="avatxt">to</p>
+                    <input type="time" class="input-time left" id="time_a_u">
+                    <input class="input-name left" id="firstname" placeholder="First Name">
+                    <input class="input-name left" id="lastname" placeholder="Last Name">
+                    <p class="avatxt">Connect via: </p>
+                    <div id="API" class="left">
+
+                    </div>
+                </div>
+                <div class="center">
+                    <div id="errmsg">
+
+                    </div>
+                    <button class="but left" id="ava1">Available</button>
+                    <button class="but left" id="ava2">Unavailable</button>
+                </div>
+            </main>
+        </div>
+        <script src="/javascripts/invite.js"></script>
+    </body>
+</html>
